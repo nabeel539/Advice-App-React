@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn {
+        @apply text-base font-medium rounded-lg p-3 mt-4;
+      }
+      
+    .btn--primary {
+        @apply bg-sky-500 text-white;
+    }
+      
+    .btn--secondary {
+        @apply bg-slate-100 text-slate-900;
+    }
+}
